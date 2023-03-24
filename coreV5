@@ -1,0 +1,282 @@
+local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/shlexware/Rayfield/main/source'))()
+local Window = Rayfield:CreateWindow({ -- set up 
+   Name = "Core V4",-- the name of the script
+   LoadingTitle = "Rayfield Interface Suite",
+   LoadingSubtitle = "by Sirius",
+   ConfigurationSaving = {
+      Enabled = true,
+      FolderName = nil, -- Create a custom folder for your hub/game
+      FileName = "Big Hub"
+   },
+   Discord = {
+      Enabled = false,
+      Invite = "noinvitelink", -- The Discord invite code, do not include discord.gg/. E.g. discord.gg/ABCD would be ABCD.
+      RememberJoins = false -- Set this to false to make them join the discord every time they load it up
+   },
+   KeySystem = true, -- Set this to true to use our key system
+   KeySettings = {
+      Title = "Sirius Hub",
+      Subtitle = "Key System",
+      Note = "Join the discord (discord.gg/sirius)",
+      FileName = "SiriusKey",
+      SaveKey = false,
+      GrabKeyFromSite = false, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
+      Key = "bhutt"
+   }
+})
+local Tab = Window:CreateTab("Main", 4483362458) -- Title, Image
+local Section = Tab:CreateSection("Main")-- tabs for the script
+
+Rayfield:Notify({-- notfi for the script
+   Title = "core V4",
+   Content = "gui loaded",
+   Duration = 6.5,
+   Image = 4483362458,
+   Actions = { -- Notification Buttons
+      Ignore = {
+         Name = "Okay!",
+         Callback = function()
+         print("The user tapped Okay!")
+      end
+   },
+},
+})
+
+local Button = Tab:CreateButton({
+   Name = "gui loaded",
+   Callback = function()
+   game.Players:Chat("h \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n Core V4 got executed 😎  by imyuhbunny join sckah.xyz \n \n \n \n \n")
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "panic mode",
+   Callback = function()
+   game.Players:Chat("h \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n lockdown is now on bc a crasher joined. \n \n \n \n \n")
+   wait(0.1)
+   game.Players:Chat("explode others")
+   wait(0.1)
+   game.Players:Chat("respawn others")
+   wait(0.1)
+   game.Players:Chat("punish others")
+   wait(0.1)
+   game.Players:Chat("unpunish all")
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "inf yeild",
+   Callback = function()
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "tp to pad",
+   Callback = function()
+   game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-16.9137554, 8.6299963, 93.9991074, -0.999507606, -1.14548612e-07, -0.0313781202, -1.14626033e-07, 1, 6.68680333e-10, 0.0313781202, 4.26510072e-09, -0.999507606)
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "tabbed out",
+   Callback = function()
+   game.Players:Chat("name me [tabbed out]")
+   wait(0.9)
+   game.Players:Chat("reset me")
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "AFK",
+   Callback = function()
+   game.Players:Chat("name me [AFK]")
+   wait(0.9)
+   game.Players:Chat("reset me")
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "autores",
+   Callback = function()
+   game.Players:Chat("reload me")
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "c system",
+   Callback = function()
+   game.Players:Chat("h \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n nah jt using /c system lol \n \n \n \n \n")
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "wkick",
+   Callback = function()
+   game.Players:Chat("gear others 0000000000000000000000000000000000025741198")
+      wait(0.1)
+      game.Players:Chat("freeze others")
+      wait(0.1)
+      game.Players:Chat("blind others")
+      wait(0.1)
+      game.Players:Chat("punish others")
+      wait(0.1)
+      game.Players:Chat("unpunish others")
+      wait(0.1)
+      game.Players:Chat("noclip others")
+   end,
+})
+
+local Tab = Window:CreateTab("crash", 4483362458) -- Title, Image
+local Section = Tab:CreateSection("crash")-- another tab for the script
+
+local Button = Tab:CreateButton({
+   Name = "crash",
+   Callback = function()
+   game.Players:Chat("gear me 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000094794847")
+   wait(0.1)
+   game.Players:Chat("size me 0.3")
+   wait(0.1)
+   game.Players:Chat("size me 0.3")
+   wait(0.1)
+   game.Players:Chat("size me 0.3")
+   wait(0.1)
+   game.Players:Chat("h \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n server crashed btw join sckah.xyz \n \n \n \n \n")
+   wait(0.1)
+   game.Players:Chat("fogend 1")
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "grab all pads",
+   Callback = function()
+   game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-13.0838919, 8.6299963, 94.3988953, -0.992040515, 7.79336276e-08, 0.125919163, 7.45381001e-08, 1, -3.1677537e-08, -0.125919163, -2.20396235e-08, -0.992040515)
+wait(0.1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-20.6536713, 8.46999645, 93.2285156, -0.989226878, 1.1234734e-08, 0.146390408, 2.29897168e-09, 1, -6.12098106e-08, -0.146390408, -6.02138428e-08, -0.989226878)
+wait(0.1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-25.004015, 9.02999687, 95.0856628, -0.993504107, -4.97548989e-08, 0.113796309, -4.14006998e-08, 1, 7.5776903e-08, -0.113796309, 7.05734209e-08, -0.993504107)
+wait(0.1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-28.5081959, 8.6299963, 94.1782608, -0.995079756, 3.76197242e-08, -0.0990769342, 3.61209977e-08, 1, 1.69207031e-08, 0.0990769342, 1.3258691e-08, -0.995079756)
+wait(0.1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-32.4551277, 8.6299963, 93.9659882, -0.995390892, 1.03235109e-08, -0.0959005579, 1.96682404e-08, 1, -9.64965921e-08, 0.0959005579, -9.79380275e-08, -0.995390892)
+
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-36.4648056, 8.6299963, 93.653801, -0.992661357, 3.07427683e-08, 0.120927311, 1.95125871e-08, 1, -9.40513658e-08, -0.120927311, -9.1001553e-08, -0.992661357)
+wait(0.1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-40.3558731, 8.46999645, 93.1650925, -0.993001461, -5.3957784e-08, 0.1181022, -5.04737159e-08, 1, 3.24914247e-08, -0.1181022, 2.6302974e-08, -0.993001461)
+wait(0.1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-44.7494926, 8.6299963, 93.9981384, -0.997449219, -7.4250039e-08, 0.071380049, -7.99683733e-08, 1, -7.72533326e-08, -0.071380049, -8.27644158e-08, -0.997449219)
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "sever hop",
+   Callback = function()
+   local Http = game:GetService("HttpService") local TPS = game:GetService("TeleportService") local Api = "https://games.roblox.com/v1/games/" local _place = game.PlaceId local _servers = Api.._place.."/servers/Public?sortOrder=Asc&limit=100" function ListServers(cursor) local Raw = game:HttpGet(_servers .. ((cursor and "&cursor="..cursor) or "")) return Http:JSONDecode(Raw) end local Server, Next; repeat local Servers = ListServers(Next) Server = Servers.data[1] Next = Servers.nextPageCursor until Server TPS:TeleportToPlaceInstance(_place,Server.id,game.Players.LocalPlayer)
+   end,
+})
+
+
+local Tab = Window:CreateTab("executed stuff", 4483362458) -- Title, Image
+local Section = Tab:CreateSection("executed stuff")-- another tab (again)
+
+local Button = Tab:CreateButton({
+   Name = "dark dex",
+   Callback = function()
+   local function say(real)
+    game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer(real,"All")
+end
+say("[Core V4] DarkDex executed")
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "serverhop",
+   Callback = function()
+   local function say(real)
+    game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer(real,"All")
+end
+say("looking for server...")
+wait(0.9)
+say("looking..")
+wait(0.3)
+say("server found joining.")
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "cmd-y",
+   Callback = function()
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/quivings/cmdy/main/main'))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "core v1 executed",
+   Callback = function()
+   local function say(real)
+    game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer(real,"All")
+end
+say("[core v4] Core v1 executed")
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "party",
+   Callback = function()
+   game.Players:Chat("fogend 100")
+      wait(0.1)
+      game.Players:Chat("disco")
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "dark khols executed",
+   Callback = function()
+          local function say(real)
+    game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer(real,"All")
+end
+say("[core v4] Darkkhols executed")
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "force respawn",-- bypass cmd-y users blacklist or unpunish with no admin
+   Callback = function()
+   game.Players.LocalPlayer.Character.Humanoid:Remove()
+   end,
+  })
+
+local Button = Tab:CreateButton({
+   Name = "ESP",
+   Callback = function()
+      local players = game.Players:GetPlayers()
+
+for i,v in pairs(players) do
+ local esp = Instance.new("Highlight")
+ esp.Name = v.Name
+ esp.FillTransparency = 0
+ esp.FillColor = Color3.new(1, 0.666667, 0)
+ esp.OutlineColor = Color3 = (0, 0,255)
+ esp.OutlineTransparency = 0
+ esp.Parent = v.Character
+end
+   end,
+})
+
+
+local Button = Tab:CreateButton({
+   Name = "kholscool",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/SEPOXCRAFT/KohlsCool/main/Scripts/KohlsCoolNewOne.lua", true))() 
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "anti-gear",
+   Callback = function()
+      while true do
+         game.Players:Chat("ungear others")
+         task.wait()
+     end
+   end,
+})
